@@ -96,8 +96,8 @@ describe('Age field', () => {
 
 
 
-    // afterEach(() => {
-    //     browser.reloadSession()
-    // });
+    afterEach(() => {
+        browser.refresh()
+    });
 
 });
