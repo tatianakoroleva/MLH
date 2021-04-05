@@ -12,7 +12,9 @@ const elements = {
     "image": "span.ant-upload",
     "submit": ".ant-btn",
     "tryAgain": ".btn-primary",
-    "ageFieldError": "//div[contains(@class,\"ant-form-item-with-help\")][.//label[@for=\"age\"]]//div[@role=\"alert\"]"
+    "ageFieldError": "//div[contains(@class,\"ant-form-item-with-help\")][.//label[@for=\"age\"]]//div[@role=\"alert\"]",
+    "spinnerUp": "span.ant-input-number-handler-up",
+    "spinnerDown": "span.ant-input-number-handler-down"
 }
 
 module.exports = elements;
