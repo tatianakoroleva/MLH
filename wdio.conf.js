@@ -24,7 +24,7 @@ exports.config = {
     exclude: [
         './test/smoke/elementsExist.js',
         './test/smoke/labelsCorrect.js',
-        '.test/smoke/smokeFunctional.js',
+       // '.test/smoke/smokeFunctional.js',
         './test/extended/name.js'
     ],
     //

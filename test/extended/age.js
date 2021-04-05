@@ -80,7 +80,7 @@ describe('Age field', () => {
         expect(err).toEqual(false);
     });
 
-    it('TC-077 Click down on the spin, when Age field is empty', function(){
+    xit('TC-077 Click down on the spin, when Age field is empty', function(){
 
     })
 
