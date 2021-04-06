@@ -26,37 +26,34 @@ describe('Name field', function () {
          const isEnabled = $(sel.name).isEnabled();
          expect(isEnabled).toEqual(true);
      });
-    xit('TC-032 Name field accepts one symbol', function (){
+     xit('TC-032 Name field accepts one symbol', function (){
         browser.url('');
         $(sel.name).setValue('a');
         browser.pause(1000);
         const err = $('.ant-form-item-explain-error').isDisplayed();
         expect(err).toEqual(false);
-    });
+     });
 
-    xit('TC-033 Name field accepts 70 symbols', function (){
+     xit('TC-033 Name field accepts 70 symbols', function (){
         browser.refresh();
         $(sel.name).setValue('wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww');
         browser.pause(1000);
         const err = $('.ant-form-item-explain-error').isDisplayed();
         expect(err).toEqual(false);
-    });
-    xit('TC-034 Name field accepts letters', function () {
+     });
+     xit('TC-034 Name field accepts letters', function () {
         browser.refresh();
         $(sel.name).setValue('ABCDEFGHIKLMNOPQRSTVXYZ');
         browser.pause(1000);
         const err = $('.ant-form-item-explain-error').isDisplayed();
         expect(err).toEqual(false);
-    });
-    xit('TC-035 Name field accepts Lowercase letters', function () {
+     });
+     xit('TC-035 Name field accepts Lowercase letters', function () {
         browser.refresh();
         $(sel.name).setValue('focus');
         browser.pause(1000);
         const err = $('.ant-form-item-explain-error').isDisplayed();
         expect(err).toEqual(false);
-    });
-
-
-
+     });
 
 });
